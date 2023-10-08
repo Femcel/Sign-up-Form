@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 }
+
 section {
 	display: flex;
 	flex-direction: row;
@@ -34,10 +35,18 @@ section {
 	color: rgb(255, 240, 240);
 }
 
+ul.form {
+	display: flex;
+	justify-content: space-around;
+}
 .text {
 	color: wheat;
 }
 
 form {
 	background-color: cadetblue;
+}
+
+li {
+	list-style-type: none
 }

@@ -30,25 +30,41 @@
 			</div>
 
 			<form>
-				<h1>FORM</h1>
-				<label for="name">Nome: </label>
-				<input type="text"/>
+				<h1>Cadastre-se</h1>
 
-				<label for="email">E-mail: </label>
-				<input type="email"/>
-
-				<label for="password">Senha: </label>
-				<input type="password"/>
-
-				<label for="surname">Sobrenome: </label>
-				<input type="text"/>
-
-				<label for="telephone_number">Telefone: </label>
-				<input type="tel"/>
-
-				<label for="password_confirmation">Confirmar senha: </label>
-				<input type="text"/>
+				<ul class="form">
+					<div id="form_left">
+						<li>
+							<label for="name">Nome: </label>
+							<input type="text" id="name" placeholder="Clarice"/>
+						</li>
+						<li>
+							<label for="email">E-mail: </label>
+							<input type="email" id="email" placeholder="lispector@clarice.com"/>
+						</li>
+						<li>
+							<label for="password">Senha: </label>
+							<input type="password" id="password" placeholder="******"/>
+						</li>
+					</div>
+	
+					<div id="form_right">
+						<li>
+							<label for="surname">Sobrenome: </label>
+							<input type="text" id="surname" placeholder="Lispector"/>
+						</li>
+						<li>
+							<label for="telephone_number">Telefone: </label>
+							<input type="tel" id="telephone_number" placeholder="+99(99)99999-9999"/>
+						</li>
+						<li>
+							<label for="password_confirmation">Confirmar senha: </label>
+							<input type="text" id="password_confirmation" placeholder="******"/>
+						</li>
+					</div>
+				</ul>
 			</form>
+
 			<button>SUBMIT</button>
 	
 		</div>
