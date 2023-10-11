@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	
+	font-family: 'Merriweather', serif;
 }
 
 section {
@@ -9,8 +9,7 @@ section {
 }
 
 #left{
-	width: 60vw;
-	width: 40wv;
+	width: 40vw;
 
 	background-color: rgb(173,42,42);
 	background-image: url(Images/quadro.jpg);
@@ -30,7 +29,7 @@ section {
 
 	height: 20vh;
 	position: relative;
-	top: 6em;
+	top: 5.5rem;
 
 	background-color: rgb(41, 36, 39, 0.8);
 	color:  #e5a721;
@@ -43,11 +42,12 @@ ul.form {
 .text {
 	color: #e5a721;
 	text-indent: 2rem;
+	font-weight: normal;
+	font-size: 16px;
 }
 
 form {
 	background-color: rgb(173,42,42);
-	font-weight: bold;
 	
 }
 
@@ -79,7 +79,22 @@ input[type="submit"] {
 	border: 0;
 	padding-block: 1rem;
 	padding-inline: 3rem;
+	font-family: inherit;
+	font-size: 1em;
 }
+
+input:focus{
+	appearance: none;
+	outline: none;
+	background-color: rgb(243, 117, 117);
+	box-shadow: 5px 5px 5px black;
+}
+
+input.error {
+	border: 2px solid black;
+	box-shadow: 2px 2px 2px black;
+}
+
 /*Ajeitar código
-Fonte
+Cores~~
 */
