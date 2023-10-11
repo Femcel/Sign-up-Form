@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	
 }
 
 section {
@@ -9,7 +10,7 @@ section {
 
 #left{
 	width: 60vw;
-	width: 40vw;
+	width: 40wv;
 
 	background-color: rgb(173,42,42);
 	background-image: url(Images/quadro.jpg);
@@ -19,7 +20,7 @@ section {
 #right{
 	height: 100vh;
 	width: 60vw;
-	background-color: rgb(38, 33, 36);
+	background-color: hsl(324, 7%, 5%);
 }
 
 #title{
@@ -29,7 +30,7 @@ section {
 
 	height: 20vh;
 	position: relative;
-	top: 100px;
+	top: 6em;
 
 	background-color: rgb(41, 36, 39, 0.8);
 	color:  #e5a721;
@@ -41,17 +42,44 @@ ul.form {
 }
 .text {
 	color: #e5a721;
+	text-indent: 2rem;
 }
 
 form {
 	background-color: rgb(173,42,42);
+	font-weight: bold;
+	
 }
 
 li {
 	list-style-type: none;
-	margin-bottom: 20px;
+	margin-bottom: 1rem;
 }
 
 label + input {
 	display: block;
 }
+
+h3, form > h1, div#right > input {
+	margin-left: 3rem;
+}
+
+#form_right {
+	margin-right: 15rem;
+}
+
+
+input {
+	border-radius: 5px;
+	border: 0.5px solid rgba(173, 42, 42, 0.6);
+}
+
+input[type="submit"] {
+	background-color: #daa940;
+	border: 0;
+	padding-block: 1rem;
+	padding-inline: 3rem;
+}
+/*Ajeitar código
+Fonte
+*/
