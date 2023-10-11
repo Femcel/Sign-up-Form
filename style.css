@@ -8,6 +8,61 @@ section {
 	flex-direction: row;
 }
 
+form {
+	background-color: rgb(173,42,42);
+}
+
+li {
+	list-style-type: none;
+	margin-bottom: 1rem;
+}
+
+input {
+	border-radius: 5px;
+	border: 0.5px solid rgba(173, 42, 42, 0.6);
+}
+
+label + input {
+	display: block;
+}
+
+h3, form > h1, div#right > input {
+	margin-left: 3rem;
+}
+
+ul.form {
+	display: flex;
+	justify-content: space-around;
+}
+
+input.error {
+	border: 2px solid black;
+	box-shadow: 2px 2px 2px black;
+}
+
+input:focus{
+	appearance: none;
+	outline: none;
+	background-color: rgb(243, 117, 117);
+	box-shadow: 5px 5px 5px black;
+}
+
+input[type="submit"] {
+	background-color: #daa940;
+	border: 0;
+	padding-block: 1rem;
+	padding-inline: 3rem;
+	font-family: inherit;
+	font-size: 1em;
+}
+
+.text {
+	color: #e5a721;
+	text-indent: 2rem;
+	font-weight: normal;
+	font-size: 16px;
+}
+
 #left{
 	width: 40vw;
 
@@ -35,66 +90,6 @@ section {
 	color:  #e5a721;
 }
 
-ul.form {
-	display: flex;
-	justify-content: space-around;
-}
-.text {
-	color: #e5a721;
-	text-indent: 2rem;
-	font-weight: normal;
-	font-size: 16px;
-}
-
-form {
-	background-color: rgb(173,42,42);
-	
-}
-
-li {
-	list-style-type: none;
-	margin-bottom: 1rem;
-}
-
-label + input {
-	display: block;
-}
-
-h3, form > h1, div#right > input {
-	margin-left: 3rem;
-}
-
 #form_right {
 	margin-right: 15rem;
 }
-
-
-input {
-	border-radius: 5px;
-	border: 0.5px solid rgba(173, 42, 42, 0.6);
-}
-
-input[type="submit"] {
-	background-color: #daa940;
-	border: 0;
-	padding-block: 1rem;
-	padding-inline: 3rem;
-	font-family: inherit;
-	font-size: 1em;
-}
-
-input:focus{
-	appearance: none;
-	outline: none;
-	background-color: rgb(243, 117, 117);
-	box-shadow: 5px 5px 5px black;
-}
-
-input.error {
-	border: 2px solid black;
-	box-shadow: 2px 2px 2px black;
-}
-
-/*Ajeitar código
-Cores~~
-*/
